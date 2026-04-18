@@ -1,0 +1,7 @@
+----
+- name: working with dummy file
+  hosts: all
+  tasks:
+    - name: working with echo
+      command: echo "welcome to the git process"
+
